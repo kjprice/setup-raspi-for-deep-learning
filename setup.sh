@@ -80,3 +80,5 @@ sudo pip install http://ci.tensorflow.org/view/Nightly/job/nightly-pi-zero/lastS
 #     tensorflow/tools/ci_build/pi/build_raspberry_pi.sh
 # cd ..
 
+# Video encoders
+sudo apt install -y gpac # MP4 Format
