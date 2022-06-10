@@ -1,3 +1,5 @@
+sudo apt-get update
+
 # Anaconda
 # Taken from https://stackoverflow.com/questions/39371772/how-to-install-anaconda-on-raspberry-pi-3-model-b
 wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
@@ -5,6 +7,8 @@ md5sum Miniconda3-latest-Linux-armv7l.sh
 bash Miniconda3-latest-Linux-armv7l.sh
 # Installs to ~/miniconda3...
 echo 'PATH=$PATH:~/miniconda3/bin/' >> ~/.bash_profile
+echo 'PATH=$PATH:~/.local/bin/' >> ~/.bash_profile
+
 source ~/.bash_profile
 
 conda update conda
