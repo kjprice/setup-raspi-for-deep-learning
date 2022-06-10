@@ -82,3 +82,6 @@ sudo pip install http://ci.tensorflow.org/view/Nightly/job/nightly-pi-zero/lastS
 
 # Video encoders
 sudo apt install -y gpac # MP4 Format
+
+# Google Drive
+pip install --no-input --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
