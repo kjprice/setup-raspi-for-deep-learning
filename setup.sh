@@ -85,3 +85,18 @@ sudo apt install -y gpac # MP4 Format
 
 # Google Drive
 pip install --no-input --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+
+# Instructions from Freenove
+# https://drive.google.com/file/d/16ximR2Ka6HJDdu20Xr7_sWo04teDhlcP/view
+cd /tmp
+git clone https://github.com/WiringPi/WiringPi
+cd WiringPi
+./build
+
+cd ~
+mkdir -p kits
+cd kits
+git clone --depth 1 https://github.com/freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi
+mv Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/ Freenove_Kit/
+
