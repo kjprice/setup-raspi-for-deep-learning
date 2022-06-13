@@ -86,6 +86,8 @@ sudo apt install -y gpac # MP4 Format
 # Google Drive
 pip install --no-input --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
+# Keyboard/mouse events
+pip install --no-input pynput
 
 # Instructions from Freenove
 # https://drive.google.com/file/d/16ximR2Ka6HJDdu20Xr7_sWo04teDhlcP/view
