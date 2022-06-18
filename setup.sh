@@ -7,8 +7,6 @@ echo 'PATH=$PATH:~/.local/bin/' >> ~/.bash_profile
 
 source ~/.bash_profile
 
-conda config --add channels conda-forge
-
 # Taken from https://ai-pool.com/d/how-to-install-keras-on-raspberry-pi-
 # ML Libraries
 python3 -m pip install --upgrade pip
