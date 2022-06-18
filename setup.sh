@@ -22,28 +22,20 @@ sudo apt-get install -y python3-scipy
 sudo apt-get update
 sudo apt-get install -y python3-h5py
 
-# Then install tensorflow and keras
+# Install common ML libraries
 python3 -m pip install scipy
 python3 -m pip install pandas
 python3 -m pip install cython
-python3 -m pip install tensorflow
-python3 -m pip install keras
-
-# Taken from https://pypi.org/project/opencv-python/
 python3 -m pip install opencv-python
+pip install -U scikit-learn # sklearn
+python3 -m pip install --user -U nltk
+
+# TODO: install tensorflow lite: https://lindevs.com/install-precompiled-tensorflow-lite-on-raspberry-pi/
+# TODO: install keras
 
 # Raspberry Pi Camera for Python
 python3 -m pip install picamera
 
-# NLTK
-python3 -m pip install --user -U nltk
-# TODO: Install nltk dictionary stuff
-# TODO: Install keras pretrained network
-
-# scikit-learn
-pip install -U scikit-learn
-
-# TODO: tensorflow lite: https://lindevs.com/install-precompiled-tensorflow-lite-on-raspberry-pi/
 
 # Video encoders
 sudo apt install -y gpac # MP4 Format
