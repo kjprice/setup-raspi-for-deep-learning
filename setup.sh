@@ -56,11 +56,16 @@ git clone https://github.com/WiringPi/WiringPi
 cd WiringPi
 ./build
 
+## Freenove code
 cd ~
 mkdir -p kits
-cd kits
+
+cd ~/kits
 git clone --depth 1 https://github.com/freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi
 mv Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/ Freenove_Kit/
+
+cd ~/kits
+git clone https://github.com/Freenove/Freenove_Robot_Dog_Kit_for_Raspberry_Pi Freenove_Robot_Dog
 
 echo 
 echo 'Setup is complete!!'
