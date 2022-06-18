@@ -59,3 +59,5 @@ cd kits
 git clone --depth 1 https://github.com/freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi
 mv Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/ Freenove_Kit/
 
+echo 
+echo 'Setup is complete!!'
