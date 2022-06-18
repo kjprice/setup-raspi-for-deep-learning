@@ -33,6 +33,7 @@ conda config --add channels conda-forge
 # ML Libraries
 python3 -m pip install --upgrade pip
 
+# TODO:add -y to all of these
 sudo apt-get install python3-numpy
 sudo apt-get install libblas-dev
 sudo apt-get install liblapack-dev
@@ -65,24 +66,7 @@ python3 -m pip install --user -U nltk
 # scikit-learn
 pip install -U scikit-learn
 
-# Docker (required to run pretrained neural networks)
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-sudo usermod -aG docker pi
-
-# Use python3.7
-python3 -c 'from keras.applications.resnet50 import ResNet50'
-# raspi
-
-sudo pip install http://ci.tensorflow.org/view/Nightly/job/nightly-pi-zero/lastSuccessfulBuild/artifact/output-artifacts/tensorflow-1.4.0-cp27-none-any.whl
-
-# Another attempt at installing tensorflow - Taken from https://www.tensorflow.org/install/source_rpi#python-3.7
-# git clone https://github.com/tensorflow/tensorflow.git
-# cd tensorflow
-# git checkout r2.0
-# tensorflow/tools/ci_build/ci_build.sh PI-PYTHON37 \
-#     tensorflow/tools/ci_build/pi/build_raspberry_pi.sh
-# cd ..
+# TODO: tensorflow lite: https://lindevs.com/install-precompiled-tensorflow-lite-on-raspberry-pi/
 
 # Video encoders
 sudo apt install -y gpac # MP4 Format
