@@ -33,17 +33,16 @@ conda config --add channels conda-forge
 # ML Libraries
 python3 -m pip install --upgrade pip
 
-# TODO:add -y to all of these
-sudo apt-get install python3-numpy
-sudo apt-get install libblas-dev
-sudo apt-get install liblapack-dev
-sudo apt-get install python3-dev
-sudo apt-get install libatlas-base-dev
-sudo apt-get install gfortran
-sudo apt-get install python3-setuptools
-sudo apt-get install python3-scipy
+sudo apt-get install -y python3-numpy
+sudo apt-get install -y libblas-dev
+sudo apt-get install -y liblapack-dev
+sudo apt-get install -y python3-dev
+sudo apt-get install -y libatlas-base-dev
+sudo apt-get install -y gfortran
+sudo apt-get install -y python3-setuptools
+sudo apt-get install -y python3-scipy
 sudo apt-get update
-sudo apt-get install python3-h5py
+sudo apt-get install -y python3-h5py
 
 # Then install tensorflow and keras
 python3 -m pip install scipy
