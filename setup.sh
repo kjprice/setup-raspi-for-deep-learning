@@ -3,29 +3,9 @@ sudo apt update
 sudo apt -y full-upgrade
 sudo apt-get update
 
-# Anaconda
-# Taken from https://stackoverflow.com/questions/39371772/how-to-install-anaconda-on-raspberry-pi-3-model-b
-wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
-md5sum Miniconda3-latest-Linux-armv7l.sh
-bash Miniconda3-latest-Linux-armv7l.sh
-# Installs to ~/miniconda3...
-echo 'PATH=$PATH:~/miniconda3/bin/' >> ~/.bash_profile
 echo 'PATH=$PATH:~/.local/bin/' >> ~/.bash_profile
 
 source ~/.bash_profile
-
-conda update conda
-
-conda install anaconda-client
-
-# taken from https://salishsea-meopar-docs.readthedocs.io/en/latest/work_env/python3_conda_environment.html
-conda install -c anaconda python=3.7
-conda update --all
-conda create -n mypython3.8 python=3.8
-# source activate mypython3
-
-# TODO: getting errors when using keras ... python3.7 -c 'from tensorflow.keras.applications.resnet50 import ResNet50'
-# TODO: Maybe try this https://towardsdatascience.com/portable-computer-vision-tensorflow-2-0-on-a-raspberry-pi-part-1-of-2-84e318798ce9
 
 conda config --add channels conda-forge
 
