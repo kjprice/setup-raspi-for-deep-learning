@@ -56,10 +56,14 @@ python3 -m pip install opencv-python
 
 # Raspberry Pi Camera for Python
 python3 -m pip install picamera
+
 # NLTK
 python3 -m pip install --user -U nltk
 # TODO: Install nltk dictionary stuff
 # TODO: Install keras pretrained network
+
+# scikit-learn
+pip install -U scikit-learn
 
 # Docker (required to run pretrained neural networks)
 curl -fsSL https://get.docker.com -o get-docker.sh
