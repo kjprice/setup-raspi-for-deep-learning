@@ -7,6 +7,9 @@ echo 'PATH=$PATH:~/.local/bin/' >> ~/.bash_profile
 
 source ~/.bash_profile
 
+# Create Projects Folder
+mkdir -p ~/Projects/pirobot
+
 # Taken from https://ai-pool.com/d/how-to-install-keras-on-raspberry-pi-
 # ML Libraries
 python3 -m pip install --upgrade pip
