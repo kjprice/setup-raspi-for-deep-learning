@@ -39,6 +39,11 @@ python3 -m pip install --user -U nltk
 # Raspberry Pi Camera for Python
 python3 -m pip install picamera
 
+# Networking/Connectivity
+python3 -m pip install --no-input imagezmq
+python3 -m pip install --no-input python-socketio
+python3 -m pip install --no-input flask
+python3 -m pip install --no-input flask-cors
 
 # Video encoders
 sudo apt install -y gpac # MP4 Format
