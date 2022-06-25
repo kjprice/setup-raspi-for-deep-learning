@@ -49,6 +49,14 @@ pip install --no-input --upgrade google-api-python-client google-auth-httplib2 g
 # Keyboard/mouse events
 pip install --no-input pynput
 
+# Webmin
+# https://pimylifeup.com/raspberry-pi-webmin/
+sudo apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions shared-mime-info
+cd /tmp
+wget http://prdownloads.sourceforge.net/webadmin/webmin_1.994_all.deb
+sudo dpkg --install webmin_1.994_all.deb
+
+
 # Instructions from Freenove
 # https://drive.google.com/file/d/16ximR2Ka6HJDdu20Xr7_sWo04teDhlcP/view
 cd /tmp

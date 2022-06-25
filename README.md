@@ -8,3 +8,7 @@ Install Docker: https://phoenixnap.com/kb/docker-on-raspberry-pi (be sure to run
 
 Try this for installing tensorflow: https://www.tensorflow.org/install/source_rpi
 
+### Webmin
+Webmin is installed as part of `setup.sh`. You can view the webmin screen by going to `https://HOSTNAME:10000` where `HOSTNAME` is the hostname for the raspberry pi.
+
+You may get a security error on chrome. You can bypass the error by typing `thisisnotsafe` while on the page.
