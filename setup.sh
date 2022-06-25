@@ -42,9 +42,12 @@ python3 -m pip install picamera
 # Networking/Connectivity
 python3 -m pip install --no-input imagezmq
 python3 -m pip install --no-input python-socketio
+sudo apt install -y python3-flask
 python3 -m pip install --no-input flask
 python3 -m pip install --no-input flask-cors
 
+# Concurrency
+python3 -m pip install --no-input eventlet
 # Video encoders
 sudo apt install -y gpac # MP4 Format
 
