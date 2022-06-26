@@ -57,6 +57,10 @@ pip install --no-input --upgrade google-api-python-client google-auth-httplib2 g
 # Keyboard/mouse events
 pip install --no-input pynput
 
+# NVM and Node.js
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+nvm install stable
+
 # Webmin
 # https://pimylifeup.com/raspberry-pi-webmin/
 sudo apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions shared-mime-info
