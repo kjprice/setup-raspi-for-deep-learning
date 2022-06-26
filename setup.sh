@@ -3,9 +3,7 @@ sudo apt update
 sudo apt -y full-upgrade
 sudo apt-get update
 
-echo 'PATH=$PATH:~/.local/bin/' >> ~/.bash_profile
-
-source ~/.bash_profile
+source ~/.profile
 
 # Create Projects Folder
 mkdir -p ~/Projects/pirobot
