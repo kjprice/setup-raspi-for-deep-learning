@@ -61,6 +61,9 @@ pip install --no-input pynput
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install stable
 
+# Read JSON in shell commands
+sudo apt-get install -y jq
+
 # Webmin
 # https://pimylifeup.com/raspberry-pi-webmin/
 sudo apt-get install -y perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions shared-mime-info

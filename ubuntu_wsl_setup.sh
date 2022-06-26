@@ -9,6 +9,7 @@ source ~/.bash_profile
 
 sudo apt install python3-pip
 sudo apt install -y python3-flask
+sudo apt-get install -y jq
 
 python3 -m pip install opencv-python
 python3 -m pip install --no-input pynput
